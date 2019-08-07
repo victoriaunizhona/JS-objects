@@ -1,4 +1,4 @@
-//JavaScript Object Literal. A JavaScript object literal is a comma-separated list of name-value pairs wrapped in curly braces.
+//JavaScript Object Literal. A JavaScript object literal is //a comma-separated list of name-value pairs wrapped in //////curly braces.
 
 // Object literal
 var myObject = {
@@ -18,6 +18,7 @@ function Person(name, dob) {
 
 
     const ageDate = new Date(diff);
+
     console.log(ageDate.getUTCFullYear());
     return ageDate.getUTCFullYear() - 1970
 
@@ -25,7 +26,7 @@ function Person(name, dob) {
   }
 } //Should start with a capital
 
-const brad = new Person("Brad", "9-10-1911");
+const brad = new Person("Brad", "9-10-1981");
 
 console.log(brad.calculateAge());
 
