@@ -21,7 +21,7 @@ const getSum1 = function (x, y) {
   return x + y;
 }
 
-const getSum2 = new Function("x", "y", "return 1+1");
+const getSum2 = new Function("x", "y", "return x+y");
 
 // Objects
 const john = { name: "John" };
@@ -33,5 +33,5 @@ const arr2 = new Array(1, 2, 3, 4);
 
 // Regular Expressions
 
-const re1 = /\w+/;
+const re1 = /\w+/; // word character - a-z, A-Z, 0-9 and  _ (underscore).
 const re2 = new RegExp("\\w+")
